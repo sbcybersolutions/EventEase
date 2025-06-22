@@ -1,0 +1,39 @@
+@page "/events/{eventName}"
+@using EventEase.Models
+@inject NavigationManager Nav
+
+<h2>@Event?.Name</h2>
+
+@if (Event != null)
+{
+    <p><strong>Date:</strong> @Event.Date.ToShortDateString()</p>
+    <p><strong>Location:</strong> @Event.Location</p>
+    <button @onclick="NavigateToRegistration">Register</button>
+}
+else
+{
+    <p>Event not found.</p>
+}
+
+@code {
+    [Parameter] public string? EventName { get; set; }
+    private EventModel? Event;
+
+    // Temporary mock data
+    private List<EventModel> AllEvents = new()
+    {
+        new() { Name = "Tech Conference 2025", Date = new DateTime(2025, 8, 12), Location = "Cape Town International Convention Centre" },
+        new() { Name = "Summer Gala", Date = new DateTime(2025, 12, 5), Location = "Stellenbosch Wine Estate" },
+        new() { Name = "Developer Meetup", Date = new DateTime(2025, 10, 20), Location = "UWC Innovation Hub" }
+    };
+
+    protected override void OnInitialized()
+    {
+        Event = AllEvents.FirstOrDefault(e => (e.Name != null ? e.Name.Replace(" ", "-") : null) == EventName);
+    }
+
+    private void NavigateToRegistration()
+    {
+        Nav.NavigateTo($"/register/{EventName}");
+    }
+}

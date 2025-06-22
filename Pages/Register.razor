@@ -1,0 +1,67 @@
+@page "/register/{eventName}"
+@using EventEase.Models
+@inject NavigationManager Nav
+@inject EventEase.Services.UserSession SessionService
+
+<h2>Register for @EventName</h2>
+
+@if (formSubmitted && !formSuccess)
+{
+    <p class="text-danger">Please correct the errors below and try again.</p>
+}
+
+<EditForm Model="@registration"
+          OnValidSubmit="HandleValidSubmit"
+          OnInvalidSubmit="HandleInvalidSubmit">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div>
+        <label>Name:</label>
+        <InputText @bind-Value="registration.Name" class="form-control" />
+        <ValidationMessage For="@(() => registration.Name)" />
+    </div>
+
+    <div>
+        <label>Email:</label>
+        <InputText @bind-Value="registration.Email" class="form-control" />
+        <ValidationMessage For="@(() => registration.Email)" />
+    </div>
+
+    <div>
+        <label>Number of Tickets:</label>
+        <InputNumber @bind-Value="registration.Tickets" class="form-control" />
+        <ValidationMessage For="@(() => registration.Tickets)" />
+    </div>
+
+    <button type="submit">Submit</button>
+</EditForm>
+
+@code {
+    [Parameter, EditorRequired] public string EventName { get; set; }
+
+    private RegistrationModel registration = new()
+    {
+        Name = string.Empty,
+        Email = string.Empty,   
+        Tickets = 1
+    };
+    
+    private bool formSubmitted = false;
+    private bool formSuccess = false;
+
+    private void HandleValidSubmit()
+    {
+        formSubmitted = true;
+        formSuccess = true;
+
+        SessionService.RegisteredUser = registration;
+        Nav.NavigateTo("/confirmation");
+    }
+
+    private void HandleInvalidSubmit()
+    {
+        formSubmitted = true;
+        formSuccess = false;
+    }
+}

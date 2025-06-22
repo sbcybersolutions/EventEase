@@ -1,0 +1,19 @@
+@page "/events"
+@using EventEase.Models
+@using EventEase.Components
+
+<h2>Upcoming Events</h2>
+
+@foreach (var evt in EventList)
+{
+    <EventCard Event="evt" />
+}
+
+@code {
+    private List<EventModel> EventList = new()
+    {
+        new EventModel { Name = "Tech Conference 2025", Date = new DateTime(2025, 8, 12), Location = "Cape Town International Convention Centre" },
+        new EventModel { Name = "Summer Gala", Date = new DateTime(2025, 12, 5), Location = "Stellenbosch Wine Estate" },
+        new EventModel { Name = "Developer Meetup", Date = new DateTime(2025, 10, 20), Location = "UWC Innovation Hub" }
+    };
+}

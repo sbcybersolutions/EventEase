@@ -1,0 +1,25 @@
+@using EventEase.Models
+@inject NavigationManager Nav
+
+@if (Event != null)
+{
+    <div class="event-card">
+        <h3>@Event.Name</h3>
+        <p><strong>Date:</strong> @Event.Date.ToShortDateString()</p>
+        <p><strong>Location:</strong> @Event.Location</p>
+        <a @onclick="NavigateToDetails" style="cursor:pointer; color:blue;">View Details</a>
+    </div>
+}
+
+@code {
+    [Parameter] public EventModel? Event { get; set; }
+
+    void NavigateToDetails()
+    {
+        if (Event?.Name != null)
+        {
+            var safeName = Event.Name.Replace(" ", "-");
+            Nav.NavigateTo($"/events/{safeName}");
+        }
+    }
+}

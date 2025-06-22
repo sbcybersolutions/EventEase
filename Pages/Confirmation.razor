@@ -1,0 +1,39 @@
+@page "/confirmation"
+@inject EventEase.Services.UserSession SessionService
+@inject NavigationManager Nav
+
+<h2>Thank You!</h2>
+
+@if (SessionService.RegisteredUser != null)
+{
+    <p>Thanks for registering, <strong>@SessionService.RegisteredUser.Name</strong>!</p>
+    <p>We've saved your registration for the event. A confirmation has been recorded for <strong>@SessionService.RegisteredUser.Tickets</strong> ticket(s).</p>
+}
+else
+{
+    <p>Oops — we couldn't find your registration details. Please try again.</p>
+}
+
+<div class="navigation-options">
+    <button @onclick="@(() => Nav.NavigateTo("/"))">Home</button>
+    <button @onclick="@(() => Nav.NavigateTo("/events"))">Browse Events</button>
+</div>
+
+<style>
+    .navigation-options {
+        margin-top: 2rem;
+    }
+    .navigation-options button {
+        margin-right: 1rem;
+        padding: 0.6rem 1.2rem;
+        border: none;
+        background-color: steelblue;
+        color: white;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    .navigation-options button:hover {
+        background-color: #336699;
+    }
+</style>
