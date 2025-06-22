@@ -6,6 +6,8 @@ C:\Users\chris\OneDrive\Coursera\MS Full Stack\EventEase\EventEase\bin\Debug\net
 C:\Users\chris\OneDrive\Coursera\MS Full Stack\EventEase\EventEase\bin\Debug\net9.0\wwwroot\_framework\dotnet.native.3c4wvb350q.wasm
 C:\Users\chris\OneDrive\Coursera\MS Full Stack\EventEase\EventEase\bin\Debug\net9.0\wwwroot\_framework\dotnet.runtime.cymp1amu5g.js
 C:\Users\chris\OneDrive\Coursera\MS Full Stack\EventEase\EventEase\bin\Debug\net9.0\wwwroot\_framework\dotnet.runtime.js.map
+C:\Users\chris\OneDrive\Coursera\MS Full Stack\EventEase\EventEase\bin\Debug\net9.0\wwwroot\_framework\EventEase.p71m1pjyoz.pdb
+C:\Users\chris\OneDrive\Coursera\MS Full Stack\EventEase\EventEase\bin\Debug\net9.0\wwwroot\_framework\EventEase.s1rqj16hnt.wasm
 C:\Users\chris\OneDrive\Coursera\MS Full Stack\EventEase\EventEase\bin\Debug\net9.0\wwwroot\_framework\icudt_CJK.tjcz0u77k5.dat
 C:\Users\chris\OneDrive\Coursera\MS Full Stack\EventEase\EventEase\bin\Debug\net9.0\wwwroot\_framework\icudt_EFIGS.tptq2av103.dat
 C:\Users\chris\OneDrive\Coursera\MS Full Stack\EventEase\EventEase\bin\Debug\net9.0\wwwroot\_framework\icudt_no_CJK.lfu7j35m59.dat
@@ -290,6 +292,7 @@ C:\Users\chris\OneDrive\Coursera\MS Full Stack\EventEase\EventEase\bin\Debug\net
 C:\Users\chris\OneDrive\Coursera\MS Full Stack\EventEase\EventEase\bin\Debug\net9.0\wwwroot\_framework\System.Threading.Tasks.Extensions.oy6nisfgqx.wasm.gz
 C:\Users\chris\OneDrive\Coursera\MS Full Stack\EventEase\EventEase\bin\Debug\net9.0\wwwroot\_framework\System.Runtime.Serialization.Formatters.vwqkwew761.wasm.gz
 C:\Users\chris\OneDrive\Coursera\MS Full Stack\EventEase\EventEase\bin\Debug\net9.0\wwwroot\_framework\System.Net.WebProxy.la91e3qlbb.wasm.gz
+C:\Users\chris\OneDrive\Coursera\MS Full Stack\EventEase\EventEase\bin\Debug\net9.0\wwwroot\_framework\EventEase.s1rqj16hnt.wasm.gz
 C:\Users\chris\OneDrive\Coursera\MS Full Stack\EventEase\EventEase\bin\Debug\net9.0\wwwroot\_framework\System.Data.Common.iw2jx9afvs.wasm.gz
 C:\Users\chris\OneDrive\Coursera\MS Full Stack\EventEase\EventEase\bin\Debug\net9.0\wwwroot\_framework\System.Xml.XDocument.c58f4n7gkk.wasm.gz
 C:\Users\chris\OneDrive\Coursera\MS Full Stack\EventEase\EventEase\bin\Debug\net9.0\wwwroot\_framework\System.Runtime.Serialization.Json.6hlg1ytzb8.wasm.gz
@@ -326,6 +329,7 @@ C:\Users\chris\OneDrive\Coursera\MS Full Stack\EventEase\EventEase\bin\Debug\net
 C:\Users\chris\OneDrive\Coursera\MS Full Stack\EventEase\EventEase\bin\Debug\net9.0\wwwroot\_framework\System.ComponentModel.EventBasedAsync.ie8ufn3fyq.wasm.gz
 C:\Users\chris\OneDrive\Coursera\MS Full Stack\EventEase\EventEase\bin\Debug\net9.0\wwwroot\_framework\dotnet.native.hvg7u8bimp.js.gz
 C:\Users\chris\OneDrive\Coursera\MS Full Stack\EventEase\EventEase\bin\Debug\net9.0\wwwroot\_framework\icudt_EFIGS.tptq2av103.dat.gz
+C:\Users\chris\OneDrive\Coursera\MS Full Stack\EventEase\EventEase\bin\Debug\net9.0\wwwroot\_framework\EventEase.p71m1pjyoz.pdb.gz
 C:\Users\chris\OneDrive\Coursera\MS Full Stack\EventEase\EventEase\bin\Debug\net9.0\wwwroot\_framework\System.Diagnostics.TextWriterTraceListener.602loys7ab.wasm.gz
 C:\Users\chris\OneDrive\Coursera\MS Full Stack\EventEase\EventEase\bin\Debug\net9.0\wwwroot\_framework\System.Net.HttpListener.g1z5na32ay.wasm.gz
 C:\Users\chris\OneDrive\Coursera\MS Full Stack\EventEase\EventEase\bin\Debug\net9.0\wwwroot\_framework\System.ServiceModel.Web.t76w5potav.wasm.gz
@@ -612,6 +616,7 @@ C:\Users\chris\OneDrive\Coursera\MS Full Stack\EventEase\EventEase\obj\Debug\net
 C:\Users\chris\OneDrive\Coursera\MS Full Stack\EventEase\EventEase\obj\Debug\net9.0\EventEase.AssemblyInfo.cs
 C:\Users\chris\OneDrive\Coursera\MS Full Stack\EventEase\EventEase\obj\Debug\net9.0\EventEase.csproj.CoreCompileInputs.cache
 C:\Users\chris\OneDrive\Coursera\MS Full Stack\EventEase\EventEase\obj\Debug\net9.0\EventEase.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\chris\OneDrive\Coursera\MS Full Stack\EventEase\EventEase\obj\Debug\net9.0\EventEase.sourcelink.json
 C:\Users\chris\OneDrive\Coursera\MS Full Stack\EventEase\EventEase\obj\Debug\net9.0\webcil\Microsoft.AspNetCore.Authorization.wasm
 C:\Users\chris\OneDrive\Coursera\MS Full Stack\EventEase\EventEase\obj\Debug\net9.0\webcil\Microsoft.AspNetCore.Components.wasm
 C:\Users\chris\OneDrive\Coursera\MS Full Stack\EventEase\EventEase\obj\Debug\net9.0\webcil\Microsoft.AspNetCore.Components.Forms.wasm
@@ -858,8 +863,8 @@ C:\Users\chris\OneDrive\Coursera\MS Full Stack\EventEase\EventEase\obj\Debug\net
 C:\Users\chris\OneDrive\Coursera\MS Full Stack\EventEase\EventEase\obj\Debug\net9.0\compressed\xnevp1gw2v-ndeh0l7c5h.gz
 C:\Users\chris\OneDrive\Coursera\MS Full Stack\EventEase\EventEase\obj\Debug\net9.0\compressed\wkfnxoh1rp-iag0ou56lh.gz
 C:\Users\chris\OneDrive\Coursera\MS Full Stack\EventEase\EventEase\obj\Debug\net9.0\compressed\qf8ivg7fz8-md9yvkcqlf.gz
-C:\Users\chris\OneDrive\Coursera\MS Full Stack\EventEase\EventEase\obj\Debug\net9.0\compressed\8z7gyv3061-vm87avh3o0.gz
-C:\Users\chris\OneDrive\Coursera\MS Full Stack\EventEase\EventEase\obj\Debug\net9.0\compressed\0i6u2gf64x-vm87avh3o0.gz
+C:\Users\chris\OneDrive\Coursera\MS Full Stack\EventEase\EventEase\obj\Debug\net9.0\compressed\8z7gyv3061-x09b4wv4ts.gz
+C:\Users\chris\OneDrive\Coursera\MS Full Stack\EventEase\EventEase\obj\Debug\net9.0\compressed\0i6u2gf64x-x09b4wv4ts.gz
 C:\Users\chris\OneDrive\Coursera\MS Full Stack\EventEase\EventEase\obj\Debug\net9.0\compressed\ye4ruo15hz-gf26ou9jj9.gz
 C:\Users\chris\OneDrive\Coursera\MS Full Stack\EventEase\EventEase\obj\Debug\net9.0\compressed\iwo0hzba73-v3fd2n5hlr.gz
 C:\Users\chris\OneDrive\Coursera\MS Full Stack\EventEase\EventEase\obj\Debug\net9.0\compressed\c6x728y0qy-n0ihslit6r.gz
@@ -1060,6 +1065,9 @@ C:\Users\chris\OneDrive\Coursera\MS Full Stack\EventEase\EventEase\obj\Debug\net
 C:\Users\chris\OneDrive\Coursera\MS Full Stack\EventEase\EventEase\obj\Debug\net9.0\compressed\75trfcm43w-tjcz0u77k5.gz
 C:\Users\chris\OneDrive\Coursera\MS Full Stack\EventEase\EventEase\obj\Debug\net9.0\compressed\lfiq0gid4h-tptq2av103.gz
 C:\Users\chris\OneDrive\Coursera\MS Full Stack\EventEase\EventEase\obj\Debug\net9.0\compressed\y62acmnqwm-lfu7j35m59.gz
+C:\Users\chris\OneDrive\Coursera\MS Full Stack\EventEase\EventEase\obj\Debug\net9.0\compressed\gqx5ofl3a7-s1rqj16hnt.gz
+C:\Users\chris\OneDrive\Coursera\MS Full Stack\EventEase\EventEase\obj\Debug\net9.0\compressed\lw84d9mf51-p71m1pjyoz.gz
+C:\Users\chris\OneDrive\Coursera\MS Full Stack\EventEase\EventEase\obj\Debug\net9.0\compressed\pqrel3z3dc-y0tzw951vx.gz
 C:\Users\chris\OneDrive\Coursera\MS Full Stack\EventEase\EventEase\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\chris\OneDrive\Coursera\MS Full Stack\EventEase\EventEase\obj\Debug\net9.0\staticwebassets.development.json
 C:\Users\chris\OneDrive\Coursera\MS Full Stack\EventEase\EventEase\obj\Debug\net9.0\staticwebassets.build.endpoints.json
@@ -1074,10 +1082,3 @@ C:\Users\chris\OneDrive\Coursera\MS Full Stack\EventEase\EventEase\obj\Debug\net
 C:\Users\chris\OneDrive\Coursera\MS Full Stack\EventEase\EventEase\obj\Debug\net9.0\refint\EventEase.dll
 C:\Users\chris\OneDrive\Coursera\MS Full Stack\EventEase\EventEase\obj\Debug\net9.0\EventEase.pdb
 C:\Users\chris\OneDrive\Coursera\MS Full Stack\EventEase\EventEase\obj\Debug\net9.0\ref\EventEase.dll
-C:\Users\chris\OneDrive\Coursera\MS Full Stack\EventEase\EventEase\bin\Debug\net9.0\wwwroot\_framework\EventEase.7u3akclv5a.pdb
-C:\Users\chris\OneDrive\Coursera\MS Full Stack\EventEase\EventEase\bin\Debug\net9.0\wwwroot\_framework\EventEase.e0vn5iho06.wasm
-C:\Users\chris\OneDrive\Coursera\MS Full Stack\EventEase\EventEase\bin\Debug\net9.0\wwwroot\_framework\EventEase.e0vn5iho06.wasm.gz
-C:\Users\chris\OneDrive\Coursera\MS Full Stack\EventEase\EventEase\bin\Debug\net9.0\wwwroot\_framework\EventEase.7u3akclv5a.pdb.gz
-C:\Users\chris\OneDrive\Coursera\MS Full Stack\EventEase\EventEase\obj\Debug\net9.0\compressed\gqx5ofl3a7-e0vn5iho06.gz
-C:\Users\chris\OneDrive\Coursera\MS Full Stack\EventEase\EventEase\obj\Debug\net9.0\compressed\lw84d9mf51-7u3akclv5a.gz
-C:\Users\chris\OneDrive\Coursera\MS Full Stack\EventEase\EventEase\obj\Debug\net9.0\compressed\pqrel3z3dc-pc6afuryf5.gz

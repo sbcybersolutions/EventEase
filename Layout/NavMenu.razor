@@ -1,20 +1,19 @@
-﻿<nav class="sidebar">
+﻿<nav class="nav-sidebar">
     <ul>
-        <li><NavLink href="/" Match="NavLinkMatch.All">Home</NavLink></li>
-        <li><NavLink href="/events">Events</NavLink></li>
-        <li><NavLink href="/register/Tech-Conference-2025">Register</NavLink></li>
+        <li>
+            <NavLink href="/" Match="NavLinkMatch.All">
+                <span class="nav-icon">🏠</span> Home
+            </NavLink>
+        </li>
+        <li>
+            <NavLink href="/events">
+                <span class="nav-icon">📅</span> Events
+            </NavLink>
+        </li>
+        <li>
+            <NavLink href="/register/Tech-Conference-2025">
+                <span class="nav-icon">📝</span> Register
+            </NavLink>
+        </li>
     </ul>
 </nav>
-
-<style>
-    .sidebar ul {
-        list-style: none;
-        padding: 0;
-    }
-    .sidebar li {
-        margin-bottom: 0.5rem;
-    }
-    .sidebar a.active {
-        color: darkorange;
-    }
-</style>
